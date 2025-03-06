@@ -152,7 +152,7 @@ body {
 .chat {
   display: flex;
   gap: 14px;
-  align-items: center;
+  align-items: flex-start;
 }
 .message {
   padding: 10px 15px;
@@ -189,6 +189,11 @@ body {
   .body-chat {
     padding: 10px;
   }
+}
+
+/*****Chat image*******/
+.response-image {
+  max-height:200px ;
 }
 /****bot tools*/
 .tools-cont {
