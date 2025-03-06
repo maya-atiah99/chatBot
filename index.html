@@ -8,6 +8,7 @@
   </head>
   <body>
     <div class="chatbot-container">
+      <!-- Header ---------------------------- -->
       <div class="header-container">
         <div class="header-imgCont">
           <img class="logo" src="./assets/images/bot-icon.png" alt="icon" />
@@ -28,8 +29,10 @@
           <img src="./assets/SVG/closeIcon.svg" alt="icon" />
         </div>
       </div>
+      <!-- Chat body ---------------------------- -->
       <div class="body-container theme2">
         <div class="body-chat">
+          <!-- Chat response body(message and icons) ---------------------------- -->
           <div class="response-chat-cont">
             <div class="chat">
               <img
@@ -68,18 +71,33 @@
               </div>
             </div>
           </div>
-
-          <div class="chat-input-cont">
-            <div class="chat-input-tools-cont">
-              <div class="tools-cont">
-                <img src="./assets/SVG/micIcon.svg" alt="icon" />
-                <img src="./assets/SVG/attachmentIcon.svg" alt="icon" />
+          <!-- Chat control ( textarea , questions, input tools)---------------------------- -->
+          <div class="chat-control">
+            <div class="questions-cont">
+              <p>Admission requirements?</p>
+              <p>Scholarship options?</p>
+              <p>Course list?</p>
+              <p>Course list?</p>
+            </div>
+            <div class="textarea-cont">
+              <textarea
+                type="text"
+                id="msg-input"
+                placeholder="Message Here"
+                rows="2"
+              >
+              </textarea>
+              <div class="chat-input-tools-cont">
+                <div class="tools-cont">
+                  <img src="./assets/SVG/micIcon.svg" alt="icon" />
+                  <img src="./assets/SVG/attachmentIcon.svg" alt="icon" />
+                </div>
+                <img
+                  class="send-icon"
+                  src="./assets/SVG/sendIcon.svg"
+                  alt="icon"
+                />
               </div>
-              <img
-                class="send-icon"
-                src="./assets/SVG/sendIcon.svg"
-                alt="icon"
-              />
             </div>
           </div>
         </div>
