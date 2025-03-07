@@ -195,6 +195,11 @@ body {
 .response-image {
   max-height: 200px;
 }
+@media (max-width: 900px) {
+.response-image {
+ width: 100%;
+}
+}
 /****bot tools*/
 .tools-cont {
   display: flex;
